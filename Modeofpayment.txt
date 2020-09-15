@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Billing</title>
+	<style>
+body{
+	margin: 60px;
+	padding: 0;
+ 	text-align:center
+	font-family: sans-serif;
+}
+.Mode input[type="button"]:hover
+{
+	cursor: pointer;
+	background: #39dc79;
+	color: #000;
+}
+.Mode input[type="button"]{
+	border: none;
+	outline: none;
+	height: 50px;
+	background: #1c8adb;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 18px;
+	width: 400px;
+	margin: 20px;
+}
+
+.Mode{
+	
+	width: 500px;
+	height: 400px;
+	background: rgba(0, 0 , 0, 0.5);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 55px 30px;
+}
+
+
+.logo{
+	
+	width: 100px;
+	height: 100px;
+ 	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+p{
+	margin: 0;
+	padding: 0 0 20px;
+ 	text-align: center;
+	font-size: 30px;
+}
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+ 	text-align: center;
+	font-size: 30px;
+}
+</style>
+</head>
+<body background="background.jpg">
+
+<h1>Billing<h1>
+<div class= "Mode">
+<img src="logo.jpg" class="logo">
+<h1>Select Mode of Payment</h1>
+<form>
+
+<input type="button" onclick="location.href='https://www.onlinesbi.com/';" value="Credit Card" />
+<input type="button" onclick="location.href='https://paytm.com/';" value="Paytm" />
+<input type="button" onclick="location.href='https://www.onlinesbi.com/';" value="Debit Card" />
+</form>
+</div>
+
+
+</body>
+</html>

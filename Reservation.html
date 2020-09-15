@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<div  style="float: center;height: 500px;width: 400px;border-bottom-left-radius:  8px;border-top-left-radius: 8px;background-color:black;">
+             <label   style="float: left;">
+				    			<br><strong >&emsp; Room Type:&nbsp;<font color="black">*</font></strong></label><br>
+                 <select id="strt" name="searchCriteria.startStationID" style="padding: 2px 3px;
+  font-size: 14px; border-radius: 6px;width: 170px;border: none;" >
+    <option value="-1"
+    selected>--- Select ---</option>
+    <option value="1">Family 3 Member</option>
+    <option value="2">Family 4-5 Member</option>
+    <option value="3">Family 6 Member</option>
+    <option value="4">Couple(Classic)</option>
+    <option value="5">Couple(Standard)</option>
+    <option value="6">Couple(Deluxe)</option>
+    <option value="7">Individual(classic)</option>
+    <option value="8">Individual(Standard)</option>
+    <option value="9">Individual(Deluxe)</option>
+ 
+</select>
+          
+<br><br><br><label  style="float: center;"><strong>&emsp;&nbsp;From Date:&nbsp;</strong></label>
+              <input type="date" id="date"name="searchDate" value="2018-04-17" style="padding: 2px 3px;
+  font-size: 13px; border-radius: 6px;width: 170px;border:1px solid black;font" >
+<br><br><div  style="float: left;font-size: 15px;">	<font color="black" ><strong> &emsp;&nbsp;*</strong></font>marked fields are mandatory
+
+  <br><br>  
+             
+              </div>
+<br><br><br><label  style="float: left;"><strong>&emsp;&nbsp;To Date:&nbsp;</strong></label>
+              <input type="date" id="date"name="searchDate" value="2018-04-17" style="padding: 2px 3px;
+  font-size: 13px; border-radius: 6px;width: 170px;border:1px solid black;font" >
+<br><br><div  style="float: left;font-size: 15px;">	<font color="black" ><strong> &emsp;&nbsp;*</strong></font>marked fields are mandatory
+
+  <br><br>  
+             
+              </div>
+
+
+    </div>
+             
+             
+       
+       </div>
+          <br>< <div align="center" style="margin-bottom:6px;">   <a href="#4"  id="srchbtn"  > <button type="button" onclick="search()" style="background-color:dodgerblue;width: 80px; height: 30px; border-radius: 5px;border: 1px solid blue;  "><span>Search</span></button></a>
+				      		<button  type="reset"  style="background-color:dodgerblue;width: 80px; height: 30px; border-radius: 5px;border: 1px solid blue;"><span>Reset</span></button>
+        </div>
+       </form>
+       
+  </body>

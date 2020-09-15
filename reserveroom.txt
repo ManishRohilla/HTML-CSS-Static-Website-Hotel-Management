@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html >
+<head>
+<title>Room Reservation</title>
+<link rel="stylesheet" type="text/css" href="stylesignup.css">
+
+</head>
+<body>
+<body background="hotel.jpg">
+<div class= "Sign-Up">
+ <img src="logo.jpg" class="logo">
+ 
+   <form>
+  	 <h2>Select Room Type</h2>
+		<select >
+    <option value="-1"
+    selected>--- Select ---</option>
+    <option value="1">Family 3 Member</option>
+    <option value="2">Family 4-5 Member</option>
+    <option value="3">Family 6 Member</option>
+    <option value="4">Couple(Classic)</option>
+    <option value="5">Couple(Standard)</option>
+    <option value="6">Couple(Deluxe)</option>
+    <option value="7">Individual(classic)</option>
+    <option value="8">Individual(Standard)</option>
+    <option value="9">Individual(Deluxe)</option>
+ 
+</select>
+<h1>Select Date</h1>
+  	 <p>From</p>
+   	<br><br><br><label  style="float: center;"><strong>&emsp;&nbsp;&nbsp;</strong></label>
+              <input type="date" id="date"name="searchDate" value="2018-04-17" style="padding: 2px 3px;
+  font-size: 13px; border-radius: 6px;width: 170px;border:1px solid black;font" >
+	<p>To</p>
+   	<br><br><br><label  style="float: center;"><strong>&emsp;&nbsp;&nbsp;</strong></label>
+              <input type="date" id="date"name="searchDate" value="2018-04-17" style="padding: 2px 3px;
+  font-size: 13px; border-radius: 6px;width: 170px;border:1px solid black;font" >
+ 	  
+   	<input type="button" onclick="location.href='main.html';" value="Reserve" />
+	<input type="button" onclick="location.href='reserveroom.html';" value="Reset" />
+  	 
+   
+   </form>
+   
+   
+  </div>
+ 
+ </Body>
+ </Html>?

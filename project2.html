@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html >
+<head>
+<script type="text/javascript">
+function abc()
+{
+	var name=document.forms[0].txtusername.value
+	var password=document.forms[0].txtpassword.value
+	if(name==="Manish"&&password==="12345"){
+ 	alert("Welcome... You are succesfully Logged in");
+	window.location='main.html';
+}
+	else
+	{
+	alert("Wrong Username or Password Entered");
+	window.location='project2.html';
+	
+}
+</script>
+<title>Hotel Management System</title>
+<link rel="stylesheet" type="text/css" href="stylelogin1.css">
+
+</head>
+<body>
+<body background="hotel.jpg">
+<div class= "Login">
+ <img src="logo.jpg" class="logo">
+  <h1>Login Here</h1>
+   <form >
+  	 <p>Username</p>
+  	 <input type="text" name="txtusername" placeholder="Enter Username">
+  	 <p>Password</p>
+  	 <input type="password" name="txtpassword" placeholder="Enter Password">
+   	<input type="button" onclick="location.href='main.html';" value="Login" />
+	<input type="submit" name="reset" value="Reset"><br>
+         <a href="a">Forgot password</a>
+<p>--------------------------------------------Or----------------------------------------</p>
+	
+	<input type="button" onclick="location.href='project1.html';" value="Create a new account" />
+	
+  	 
+   
+   </form>
+   
+   
+  </div>
+ 
+ </Body>
+ </Html>

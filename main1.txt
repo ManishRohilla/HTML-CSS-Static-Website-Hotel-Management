@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" >
+<style>
+.navbar {
+border-radius:8px;
+margin:10px;
+    overflow: hidden;
+    background-color: Black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 13px 14px;
+    text-decoration: none;
+	font-weight: bold;
+}
+.dropbtn{
+    font-weight: bold;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: White;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: Black;
+    padding: 20px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: Gray;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+ #tfheader{
+    background-color:#c3dfef;
+  }
+  #tfnewsearch{
+    float:right;
+    padding:20px;
+  }
+  .tftextinput{
+    margin: 0;
+    padding: 5px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    border:1px solid #0076a3; border-right:0px;
+    border-top-left-radius: 5px 5px;
+    border-bottom-left-radius: 5px 5px;
+  }
+  .tfbutton {
+    margin: 0;
+    padding: 5px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    border: solid 1px #0076a3; border-right:0px;
+    background: #0095cd;
+   
+    border-top-right-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+  }
+  .tfbutton:hover {
+    text-decoration: none;
+    background: #007ead;
+    
+  }
+  /* Fixes submit button height problem in Firefox */
+  .tfbutton::-moz-focus-inner {
+    border: 0;
+  }
+  .tfclear{
+    clear:both;
+  }
+body{	padding: 15px;
+}
+.footer{
+border-radius:40px;
+ background:black;
+color:white;
+padding:20px;
+margin:10px;
+}
+.footer a{
+text-align: center;}
+.footer h2{
+text-align: center;}
+.footer h3{
+text-align: center;}
+
+
+
+
+
+</style>
+</head>
+<body>
+
+<body background="hotel2.png">
+
+<div class="navbar">
+  
+      <div class="dropdown">  
+	<button class="dropbtn">Rooms  
+        </button>
+          <div class="dropdown-content">
+               <a href="familyrooms.html">For Family</a>
+               <a href="individualrooms.html">For Individuals</a>
+               <a href="couplerooms.html">For Couples</a>
+		<a href="reserveroom.html">Room Reservation</a>
+          </div>
+       </div>
+ 
+	<div class="dropdown">  
+	<button class="dropbtn">Hotel's Restaraunt 
+        </button>
+          <div class="dropdown-content">
+               <a href="reservetable.html">Table Reservations </a>
+               <a href="#">Order on Room</a>
+          </div>
+       </div>
+ 
+	<div class="dropdown">  
+	<button class="dropbtn">Payment and Billing  
+        </button>
+          <div class="dropdown-content">
+               <a href="#">See Bill</a>
+	       <a href="Modeofpayment.html">Payment</a>
+       
+          </div>
+       </div>
+	<a href="feedback.html">Feedback and Suggestion Box</a>
+	<a ></a> 
+ <form id="tfnewsearch" method="get" action="http://www.google.com">
+            <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
+    </form>
+		 <a></a>
+		 <a></a>
+		 <a></a>
+		 <a></a>
+		 <a></a>
+		 <a></a>
+		<a></a>
+<a></a>
+<a></a>
+               <a href="project1.html">Sign-Up</a>
+               <a href="project2.html">Login</a>
+</div>
+                    </nav>
+<marquee><img src="hotel.jpg" width="800" height="575"><img src="feedback.png" width="800" height="575"><img src="18.jpg" width="850" height="575"><img src="11.jpg" width="850" height="575"><img src="12.jpg" width="800" height="575"><img src="13.jpg" width="850" height="575" ><img src="14.jpg" width="800" height="575" ><img src="15.jpg" width="800" height="575" ><img src="16.jpg" width="800" height="575" ><img src="17.jpg" width="800" height="575"></marquee>
+
+<div class="footer">
+<h2>Contact Us</h2>
+<h3>Email id 1:<a href="https://accounts.google.com/signin/v2/identifier?passive=1209600&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount&followup=https%3A%2F%2Faccounts.google.com%2FManageAccount&flowName=GlifWebSignIn&flowEntry=ServiceLogin">kotamanishrohilla@gmail.com</a></h3>
+<h3>Email id 2:<a href="https://accounts.google.com/signin/v2/identifier?passive=1209600&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount&followup=https%3A%2F%2Faccounts.google.com%2FManageAccount&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Deepakyadav1129@gmail.com</a></h3>
+<h3>Contact Number: 8750606272,9034881168</h3>
+
+</body>
+</html>
